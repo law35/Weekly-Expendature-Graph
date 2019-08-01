@@ -33,5 +33,5 @@ if __name__ == '__main__':
 		
 		draw_bar_graph(costs, catagories)
 	
-		query = str(rae_input("Are you ready to quit?(Y/N):>> ").upper())		
+		query = str(raw_input("Are you ready to quit?(Y/N):>> ").upper())		
 		if query == "Y": break
